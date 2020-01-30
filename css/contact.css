@@ -1,0 +1,57 @@
+#sect6 {
+    text-align: center;
+}
+
+#line2 {
+    margin: 30px auto;
+    background-color: #ff8b38;
+}
+
+#form-float:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+#form1 {
+    width: 50%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+#form2 {
+    width: 50%;
+    float: right;
+    margin-bottom: 80px;
+}
+
+#form1 input, #form2 input {
+    display: block;
+    outline: none;
+    width: 285px;
+    height: 35px;
+    border: 0px solid;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 35px auto 0;
+}
+
+#form1 input:focus, #form2 input:focus {
+    border: 1px solid orange;
+}
+
+#form2 input {
+    text-align: top;
+    height: 175px;
+}
+
+#sect6 button {
+    margin: 45px auto 80px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+#sect6 button:hover {
+    background-color: white;
+    color: orange;
+}
