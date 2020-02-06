@@ -1,0 +1,24 @@
+.info {
+    margin: auto;
+}
+
+#block1, #block2, #block3 {
+    width: 33.33333%;
+    display: inline-block;
+    margin: 0 -2px;
+}
+
+#block1 {
+    background: url(../img/desing.png) no-repeat;
+    background-position: top center;
+}
+
+#block2 {
+    background: url(../img/crafted.png) no-repeat;
+    background-position: top center;
+}
+
+#block3 {
+    background: url(../img/customize.png) no-repeat;
+    background-position: top center;
+}
