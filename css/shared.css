@@ -6,8 +6,9 @@
 }
 
 .container {
-    width: 1400px;
-    margin: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 #header {
@@ -24,7 +25,6 @@
 #header li {
     list-style: none;
     display: inline-block;
-
 }
 
 #header a:hover {

@@ -8,6 +8,11 @@ header {
     margin: 70px 35px;
 }
 
+.header__btn-menu {
+    display: none;
+    font-size: 28px;
+}
+
 h1 {
     font-size: 30px;
     font-weight: 400;
@@ -26,6 +31,7 @@ header button:hover, #sect5 button:hover {
     border: 1px solid #000;
     background: orange;
     color: white;
+    transform: translateY(20px);
 }
 
 header button {
@@ -68,7 +74,6 @@ header button {
 
 #table input:focus {
     border-bottom: 2px solid orange;
-
 }
 
 #table button {
@@ -99,8 +104,10 @@ body {
 }
 
 .comment {
-    width: 33%;
+    width: 370px;
     float: left;
+    margin-bottom: 95px;
+    position: relative;
 }
 
 #sect4:after {
@@ -135,6 +142,10 @@ body {
     margin-left: 55px;
 }
 
+.avatar:hover {
+    transform: scaleY(1.2);
+}
+
 .avatar h4, .avatar p {
     margin-left: 85px;
 }
@@ -158,6 +169,7 @@ body {
     background-image: url(../img/fon.png);
     background-size: cover;
     text-align: center;
+    margin: 0 auto;
 }
 
 #sect5 h2, #sect5 p, #sect5 h3 {

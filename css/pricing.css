@@ -1,17 +1,21 @@
 #sect3 {
+    display: flex;
     margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
 }
 
 #sect3:after {
-    display: block;
+    display: flex;
     content: '';
     clear: both;
 }
 
 .liste, .liste2 {
-    width: 33.33333%;
+    max-width: 370px;
     float: left;
     margin-bottom: 95px;
+    position: relative;
 }
 
 .liste {
@@ -60,4 +64,5 @@
 
 .li1:hover, .li2:hover, .li3:hover, .li4:hover {
     border: 2px solid orange;
+    transform: scaleY(1.2);
 }
