@@ -1,12 +1,12 @@
 #pricing {
     display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .liste, .liste2 {
-	width: 350px;
+    width: 350px;
     float: left;
     margin-bottom: 95px;
 }

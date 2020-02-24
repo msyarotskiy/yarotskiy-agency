@@ -27,7 +27,7 @@ header p {
 }
 
 header button {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .documentation {
@@ -36,29 +36,29 @@ header button {
     border: medium none;
     vertical-align: middle;
     cursor: pointer;
-    border:1px solid orange;
+    border: 1px solid orange;
     white-space: nowrap;
     font-size: 16px;
     line-height: 1.42857;
     background: orange;
-    color:#fff;
+    color: #fff;
     font-weight: 700;
     margin-top: 30px;
-    text-transform: capitalize!important;
+    text-transform: capitalize !important;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .documentation a {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
-.documentation:hover{
+.documentation:hover {
     background: black;
     color: #fff;
-	border:1px solid black;
+    border: 1px solid black;
 }
 
 #icon {
@@ -67,19 +67,19 @@ header button {
 }
 
 #feedback {
-	background-color: white;
+    background-color: white;
 }
 
 .comments {
-	margin-left: 100px;
+    margin-left: 100px;
 }
 
 .comment {
     float: left;
-	width: 300px;
+    width: 300px;
     margin-bottom: 80px;
-	min-width: 200px;
-	margin-left: 80px;
+    min-width: 200px;
+    margin-left: 80px;
 }
 
 .comment img {
@@ -154,15 +154,15 @@ header button {
 #main-footer p {
     font-family: Raleway;
     font-size: 16px;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 @media (max-width: 40rem) {
-.comments {
-	margin-left: 0;
-}
+    .comments {
+        margin-left: 0;
+    }
 
-.comment {
-	margin-left: 20px;
-}
+    .comment {
+        margin-left: 20px;
+    }
 }
