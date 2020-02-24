@@ -4,13 +4,12 @@ header {
     background-size: cover;
 }
 
-#logo2 {
-    margin: 70px 35px;
+body {
+    background-color: #f5f5f5;
 }
 
-.header__btn-menu {
-    display: none;
-    font-size: 28px;
+#logo2 {
+    margin: 70px 35px;
 }
 
 h1 {
@@ -27,75 +26,39 @@ header p {
     font-size: 14px;
 }
 
-header button:hover, #sect5 button:hover {
-    border: 1px solid #000;
-    background: orange;
-    color: white;
-    transform: translateY(20px);
-}
-
 header button {
-    margin: 45px 0 140px;
+	margin-top: 20px;
 }
 
-#table {
-    background: white;
-    position: absolute;
-    border-radius: 7px;
-    width: 300px;
-    height: 290px;
-    right: 145px;
-    top: 200px;
+.documentation {
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: medium none;
+    vertical-align: middle;
+    cursor: pointer;
+    border:1px solid orange;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 1.42857;
+    background: orange;
+    color:#fff;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: capitalize!important;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-#table p {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    font-size: 23px;
-    font-weight: 400;
-    text-align: center;
-    font-family: Open Sans;
-    color: #333;
-    background-color: #d9d9d9;
-    padding: 5px 0;
+.documentation a {
+	text-decoration: none;
+	color: white;
 }
 
-#table span {
-    color: orange;
-}
-
-#table input {
-    outline: none;
-    width: 270px;
-    height: 40px;
-    border: 0 solid rgb(214, 214, 214);
-    margin: 25px 15px auto;
-}
-
-#table input:focus {
-    border-bottom: 2px solid orange;
-}
-
-#table button {
-    width: 300px;
-    height: 40px;
-    background-color: orange;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    border: 1px solid orange;
-    position: relative;
-    bottom: 25px;
-    color: white;
-}
-
-#table button:hover {
-    background-color: white;
-    color: orange;
-    border: 1px solid #fff;
-}
-
-body {
-    background-color: #f5f5f5;
+.documentation:hover{
+    background: black;
+    color: #fff;
+	border:1px solid black;
 }
 
 #icon {
@@ -103,14 +66,27 @@ body {
     display: inline-block;
 }
 
-.comment {
-    width: 370px;
-    float: left;
-    margin-bottom: 95px;
-    position: relative;
+#feedback {
+	background-color: white;
 }
 
-#sect4:after {
+.comments {
+	margin-left: 100px;
+}
+
+.comment {
+    float: left;
+	width: 300px;
+    margin-bottom: 80px;
+	min-width: 200px;
+	margin-left: 80px;
+}
+
+.comment img {
+    float: left;
+}
+
+#feedback:after {
     display: block;
     content: '';
     clear: both;
@@ -118,8 +94,7 @@ body {
 
 .p-comment {
     background: #f5f5f5;
-    width: 350px;
-    height: 140px;
+    height: 100px;
     border-radius: 5px;
     text-align: left;
     font-style: italic;
@@ -132,14 +107,14 @@ body {
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     border-top: 20px solid #f5f5f5;
-    margin: -80px 0 15px 80px;
+    margin: -50px 0 15px 80px;
 }
 
 .avatar {
     background-image: url(../img/avatar.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-left: 55px;
+    margin-left: 50px;
 }
 
 .avatar:hover {
@@ -165,22 +140,29 @@ body {
     padding-bottom: 10px;
 }
 
-#sect5 {
+#main-footer {
     background-image: url(../img/fon.png);
     background-size: cover;
     text-align: center;
     margin: 0 auto;
 }
 
-#sect5 h2, #sect5 p, #sect5 h3 {
+#main-footer h2, #main-footer p {
     color: #fff;
 }
 
-#sect5 p {
+#main-footer p {
     font-family: Raleway;
     font-size: 16px;
+	margin-top: 20px;
 }
 
-#line_3 {
-    margin: 6px 675px 25px;
+@media (max-width: 40rem) {
+.comments {
+	margin-left: 0;
+}
+
+.comment {
+	margin-left: 20px;
+}
 }

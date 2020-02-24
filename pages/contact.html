@@ -5,29 +5,61 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../css/shared.css">
+  <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="../css/contact.css">
   <link rel="icon" type="image/png" href="../img/Logo2.png" sizes="32x32">
   <title>Contact</title>
 </head>
 <body>
-  <div id="header">
-    <nav>
-      <div class="container">
-        <div id="nav">
-          <div class="logo_1">
-            <a href="../index.html"><img src="../img/Logo.png" alt="logo"></a>
+<header>
+  <div class="backdrop"></div>
+<div class="main-header">
+  <div>
+<div class="logo_1">
+            <a href="../index.html" class="logo_1"><img src="../img/Logo.png" alt="logo"></a>
           </div>
-          <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+    </div>
+	<nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="about.html">About</a></li>
+        </li>
+        <li class="main-nav__item">
+          <a href="pricing.html">Pricing</a>
+        </li>
+		<li class="main-nav__item">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
-  </div>
+	</div>
+  </header>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item">
+        <a href="about.html">About</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="pricing.html">Pricing</a>
+      </li>
+	  <li class="mobile-nav__item">
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
   <main>
-    <section id="sect6">
+    <section id="form-contact">
       <div class="container">
         <h2>CONTACT US</h2>
         <div id="line2"></div>
@@ -45,9 +77,46 @@
         <button>Send Message</button>
       </div>
     </section>
+	<div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__title">
+              CREATIVE DESIGN COMPANY
+            </div>
+            <div class="footer__text">
+              We can realize absolutely everything that your imagination can create ... And even a little more ...
+            </div>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="footer__btn" href="#">
+              Contact us!
+            </a>
+            <ul class="footer__list">
+              <li><a class="footer__phone" href="tel:380963092145">+375 (29) 111-22-33</a></li>
+              <li><a href="#">msyarotskiy@gmail.com</a></li>
+              <li><a class="footer__adress" href="#">Гродно, ул. Горького 1</a></li>
+            </ul>
+          </div>
+          <div class="footer__map">
+            <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.786174435348!2d23.829762301444664!3d53.6864362471968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dfd62118416b29%3A0x21ff2d48b840c760!2z0YPQuy4g0JzQsNC60YHQuNC80LAg0JPQvtGA0YzQutC-0LPQviAxLCDQk9GA0L7QtNC90L4gMjMwMDIz!5e0!3m2!1sru!2sby!4v1582109317319!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
     <p>2020 Yarotskiy M.</p>
   </footer>
+  
+    <div id="modal">
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Phone">
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/shared.js"></script>
+  <script src="../js/jquery.fancybox.min.js"></script>
 </body>
 </html>

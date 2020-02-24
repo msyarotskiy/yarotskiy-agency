@@ -10,49 +10,69 @@
   <title>AXIT</title>
 </head>
 <body>
-  <div id="header">
-    <nav>
-      <div class="container">
-        <div class="logo_1">
-          <a href="index.html"><img src="img/Logo.png" alt="logo"></a>
-        </div>
-        <ul>
-          <li><a href="pages/about.html">About</a></li>
-          <li><a href="pages/pricing.html">Pricing</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
+ <div class="backdrop"></div>
+<header>
+<div class="main-header">
+<div>
+<div class="logo_1">
+            <a href="index.html" class="logo_1"><img src="img/Logo.png" alt="logo"></a>
+          </div>
+      <button class="toggle-button">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </button>
+    </div>
+	<nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item">
+          <a href="pages/about.html">About</a></li>
+        </li>
+        <li class="main-nav__item">
+          <a href="pages/pricing.html">Pricing</a>
+        </li>
+		<li class="main-nav__item">
+          <a href="pages/portfolio.html">Portfolio</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="pages/contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
-  </div>
-  <header>
-    <div class="container">
+	</div>
+	<div class="container">
       <img id="logo2" src="img/Logo2.png" alt="logo">
-      <h1>MODERN AXURE TEMPLATE<br>FOR BEAUTIFUL PROTOTYPES</h1>
-      <div id="line_1"></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br>euismod bibendum laoreet. Proin gravida
-        dolor sit amet lacus<br>accumsan et viverra justo commodo.</p>
-      <button>Download</button>
-      <div id="table">
-        <p>Try Your <span>FREE</span> Trial Today</p>
-        <form action="">
-          <input type="text" name="name" placeholder="Name">
-          <input type="text" name="email" placeholder="Email">
-          <input type="password" name="password" placeholder="Password">
-          <form action="">
-            <button>Get STARTED</button>
-          </form>
-        </form>
-      </div>
+      <h1>CREATIVE DESIGN COMPANY</h1>
+      <div id="line"></div>
+      <p>Working with brands, we strive to understand their<br>philosophy and offer something that will definitely appeal to you. In turn,
+	  <br>brands trust our ideas, experience, and stereotype-free consciousness.</p>
+      <button class="documentation"><a href="pages/about.html">Read more</a></button>
     </div>
   </header>
+    <nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item">
+        <a href="pages/about.html">About</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="pages/pricing.html">Pricing</a>
+      </li>
+	  <li class="mobile-nav__item">
+        <a href="pages/portfolio.html">Portfolio</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="pages/contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
   <main>
-    <section id="sect4">
+    <section id="feedback">
       <div class="container">
         <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
-        <div id="line2"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>We can create anything for you!</p>
+		<div class="comments">
         <div class="comment">
-          <p class="p-comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus<br>accusamus
-            expedita repellat similique<br>odio aspernatur ex, architecto eaque<br>quo suscipit.</p>
+          <p class="p-comment">Among all the companies,<br> we chose this and did not lose.<br></p>
           <div id="triangle-down"></div>
           <div class="avatar">
             <h4>John S.</h4>
@@ -60,36 +80,36 @@
           </div>
         </div>
         <div class="comment">
-          <p class="p-comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus<br>accusamus
-            expedita repellat similique<br>odio aspernatur ex, architecto eaque<br>quo suscipit.</p>
+          <p class="p-comment">We have been working<br>with them for several years<br>and will also continue to work with them,
+		  <br>because this is the best company.</p>
           <div id="triangle-down"></div>
           <div class="avatar">
-            <h4>John S.</h4>
-            <p>Manager</p>
+            <h4>Tom S.</h4>
+            <p>CEO</p>
           </div>
         </div>
         <div class="comment">
-          <p class="p-comment">Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Doloribus<br>accusamus
-            expedita repellat similique<br>odio aspernatur ex, architecto eaque<br>quo suscipit.</p>
+          <p class="p-comment">A cool promising agency<br>where professionals work.</p>
           <div id="triangle-down"></div>
           <div class="avatar">
-            <h4>John S.</h4>
-            <p>Manager</p>
+            <h4>Mike P.</h4>
+            <p>HR</p>
           </div>
         </div>
       </div>
+	  </div>
     </section>
-    <section id="sect5">
+    <section id="main-footer">
       <div class="container">
         <h2>STYLISH AXURE DESIGN</h2>
-        <div id="line_3"></div>
         <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
-        <button>Download</button>
+        <button class="documentation"><a href="pages/about.html">Read more</a></button>
       </div>
     </section>
   </main>
   <footer>
     <p>2020 Yarotskiy M.</p>
   </footer>
+   <script src="js/shared.js"></script>
 </body>
 </html>
