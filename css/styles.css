@@ -117,10 +117,6 @@ header button {
     margin-left: 50px;
 }
 
-.avatar:hover {
-    transform: scaleY(1.2);
-}
-
 .avatar h4, .avatar p {
     margin-left: 85px;
 }
@@ -155,6 +151,25 @@ header button {
     font-family: Raleway;
     font-size: 16px;
     margin-top: 20px;
+}
+
+.col-md-12,
+.col-md-3,
+.col-sm-6,
+.col-xs-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-6 {
+    float: left;
+    width: 50%
+}
+
+.text-center {
+    text-align: center !important;
 }
 
 @media (max-width: 40rem) {

@@ -31,6 +31,12 @@ section p {
     float: right;
 }
 
+.portfolio-item img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 .portfolio-item .name {
     margin: 50px 0;
     text-transform: uppercase;
